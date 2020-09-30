@@ -17,8 +17,8 @@ SLACK_TOKEN = "YOUR_TOKEN_HERE"
 
 # Where you want to receive your notifications ?
 
-# you can get it using list_channels and channel_info or click on the channel name
-# click on add app or integration and you can view it's id in the webpage redirection (you have to be fast because it redirects it to another page)
+# You can get it using list_channels and channel_info or click on the channel name
+# Click on add app or integration and you can view it's id in the webpage redirection (you have to be fast because it redirects it to another page)
 CHANNEL_ID = "G2LCBCXGF"
 
 # ================== END CONFIGURATION ==================
@@ -26,7 +26,7 @@ CHANNEL_ID = "G2LCBCXGF"
 slack_client = SlackClient(SLACK_TOKEN)
 
 
-# ================== SLACK FUNCTIONS ==================
+# ================== SLACK FUNCTION ==================
 def list_channels():
     channels_call = slack_client.api_call("channels.list")
     if channels_call['ok']:
