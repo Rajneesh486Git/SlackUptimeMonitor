@@ -1,13 +1,13 @@
-# Website Down Notifier on Slack
+# Website Down Notifies on Slack
 
 
 <img src="https://raw.githubusercontent.com/AndreiD/SlackUptimeMonitor/master/slackmonitor.JPG" alt="slack website up down notifier uptime ping"/>
 
-#### A Simple, one file script that notifies you on slack when your websites is down.
+#### A Simple, One file script that notifies you on slack when your websites is down.
 
 ## Configuration
 
-### Step 1 - Get the Script
+# Step 1-Get the Script
 
 Simply copy paste the script uptimemonitor.py into your server. After you test it add it to cron with your preferred check interval
 
@@ -21,7 +21,7 @@ $tail -f /root/uptimenotifier.log
 
 Note that the script is written in Python3.5.
 
-### Step 2 -  Setup the configuration variables
+## Step 2 -  Setup the configuration variables
 
 
 URLS_TO_CHECK = ["http://facebook.com",
@@ -51,10 +51,10 @@ CHANNEL_ID = "G2LCBCXGF"
 
 ### Step 3 - ???
 
-### Step 4 - Profit
+#### Step 4 - Profit
 
 ### Remember to star this repository and fork it.
 
-#### Bugs / Issues / Suggestions -> write me a message on "Issues"
+#### Bugs / Issues / Suggestions -> write me a message on "*Issues*"
 
 
