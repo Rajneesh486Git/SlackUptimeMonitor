@@ -11,7 +11,7 @@
 
 Simply copy paste the script uptimemonitor.py into your server. After you test it add it to cron with your preferred check interval
 
-Example for checks every minute
+Example for checks every minutes
 ~~~~
 $crontab -e
 * * * * * /home/uptimemonitor/uptimemonitor.py > /root/uptimenotifier.log
@@ -21,7 +21,7 @@ $tail -f /root/uptimenotifier.log
 
 Note that the script is written in Python3.5.
 
-### Step 2 -  Setup the config variables
+### Step 2 -  Setup the configuration variables
 
 
 URLS_TO_CHECK = ["http://facebook.com",
@@ -38,7 +38,7 @@ export SLACK_TOKEN = 'your_token_here'
 
 SLACK_TOKEN = os.environ.get('SLACK_TOKEN')
 
-#### Where you want to receive your notifications ?
+#### Where you want to receive your Notifications ?
 
 you can get it using list_channels and channel_info or click on the channel name
 
